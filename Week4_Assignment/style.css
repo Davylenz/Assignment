@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
+*{
+margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin:20px auto;
+  align-items:center;
+}
+
+.main >div{
+  width:20%;
+  height:60vh;
+} 
+.first-box {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+  width: 30%;
+  border-radius: 8px 8px 0 0;
+}
+
+.first-box h2 {
+  color:hsl(0, 0%, 95%);
+  font-size: 32px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: 700;
+  font-family:'Big Shoulders Display',cursive;
+}
+
+.first-box p {
+  font-size: 15px;
+  padding-bottom: 10px;
+  color: hsl(0, 0%, 95%);
+  margin:20px 0;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.first-box button{
+    color:hsl(31, 77%, 52%); 
+    padding: 8px 20px;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+  margin:20px 0;
+}
+
+
+.second-box { background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 30%;
+  }
+  
+  .second-box h2 {
+   color: hsl(0, 0%, 95%);
+    font-size: 32px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 700;
+    font-family:'Big Shoulders Display',cursive;
+  }
+  
+  .second-box p {
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: hsl(0, 0%, 95%);
+    margin:20px 0;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  .second-box button{
+      color:hsl(184, 100%, 22%); 
+      padding: 8px 20px;
+      border-radius: 15px;
+      border: none;
+    margin:20px 0;
+  }
+
+
+  .third-box { background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 30%;
+    border-radius: 0 0 8px 8px  ;
+  }
+  
+  .third-box h2 {
+   color: hsl(0, 0%, 95%);
+   font-size: 32px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   font-weight: 700;
+    font-family:'Big Shoulders Display',cursive;
+    
+  }
+  
+  .third-box p {
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: hsl(0, 0%, 95%);
+    margin:20px 0;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  .third-box button{
+      color:hsl(179, 100%, 13%); 
+      padding:8px 20px;
+      border-radius: 15px;
+      border: none;
+      margin:20px 0;
+  }
+.grid-link{
+   color:hsl(179, 100%, 13%); 
+      padding:8px 20px;
+      border-radius: 15px;
+      border: none; 
+}
+
+
+.grid-link p{
+  text-align:center;
+  margin-top:25px;
+}
+
+@media screen and (max-width:375px) {
+  
+   .main {
+ flex-direction:column;
+  justify-content: center;
+  margin:20px auto;
+  align-items:center;
+}
+
+.main >div{
+  width:80%;
+  height:60vh;
+  }
+}
+
+
